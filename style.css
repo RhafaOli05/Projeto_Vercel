@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color: rgb(0, 183, 255) ;
+}
+h1{
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 45px;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    margin-top: 3%;
+    font-weight: 200;
+}
+ol{
+    position: relative;
+    top: 25%;
+    margin-left: 29%;
+    list-style: none;
+    background-image: linear-gradient(45deg, rgb(0, 60, 255), rgb(0, 183, 255) ,rgb(0, 60, 255));
+    border: solid black 4px;
+    box-shadow: 10px 10px 10px 4px rgb(50, 55, 61);
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 30px;
+    width: 485px;
+    height: 400px;
+}
+ol a{
+    text-align: center;
+    font-size: 27px;
+    color: black;
+}
+@media(min-width:1919px){
+    ol{
+        margin-left: 35%;
+    }
+}
+@media(max-width:1024px){
+    ol{
+        margin-left: 22%;
+    }
+}
+@media(max-width: 860px){
+    ol{
+        margin-left: 14%;
+    }
+}
+@media(max-width:540px){
+    ol{
+        margin-left: 0;
+    }
+}
+@media(max-width:430px){
+    ol{
+        margin-left: 0%;
+    }
+    
+}
